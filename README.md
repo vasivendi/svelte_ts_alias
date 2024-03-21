@@ -16,13 +16,13 @@ For convenience the `@svelte` alias is already configured in the tsconfig like s
 ]
 ...
 ```
-## How to
 The first alias adds the package itself
 
 The second alias adds the subpackages
 - First path in the alias adds the package (for Rollup)
 - Second path in the alias adds the index module (for TS language server)
 
+## How to
 If you wish to alias your own *folders* then you only need the second alias, for example:
 ```json
 ...
