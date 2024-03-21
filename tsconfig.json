@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "noEmitOnError": true,
+    "noImplicitReturns": true,
+    "noImplicitAny": true,
+    "strict": true,
+    "verbatimModuleSyntax": true,
+    "lib": [
+      "ES2019",
+      "DOM"
+    ],
+    "module": "ESNext",
+    "target": "ES2017",
+    "baseUrl": ".",
+    "paths": {
+      "@svelte": [
+        "node_modules/svelte",
+        "node_modules/svelte/index"
+      ],
+      "@svelte/*": [
+        "node_modules/svelte/*",
+        "node_modules/svelte/*/index"
+      ]
+    }
+  },
+  "include": [
+    "src/**/*",
+    "src/"
+  ],
+  "exclude": [
+    "node_modules/*",
+    "__sapper__/*",
+    "public/*"
+  ]
+}
